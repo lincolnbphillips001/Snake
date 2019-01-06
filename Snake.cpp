@@ -139,16 +139,6 @@ void Snake::move (Board mBoard, unsigned int userInput) {
 		}
 		mSnakePositionVector[1] =	snakePositionTmp;
 	}
-
-
-/*
-	} else if (mLengthOfSnake == 4) {
-		mSnakePositionVector[3] =	mSnakePositionVector[2];
-		mSnakePositionVector[2] =	mSnakePositionVector[1];
-		mSnakePositionVector[1] =	snakePositionTmp;
-	}
-*/
-
 }
 
 //Renders texture at given point
